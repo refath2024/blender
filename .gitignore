@@ -1,0 +1,43 @@
+# Blender temp files
+*.tmp
+*.bak
+*.blend1
+*.blend2
+*.blend@ 
+*.blend#
+
+# Cache folders
+__pycache__/
+*.pyc
+
+# Blender auto-save and backup directories
+*.autosave.blend
+*.blend1
+*.blend2
+*.blend@ 
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Exported files (if you don’t want to track them)
+*.fbx
+*.obj
+*.dae
+*.stl
+*.gltf
+*.glb
+*.abc
+
+# Other stuff you probably don't want
+*.blend.lock
+*.blend1
+*.blend2
+*.tmp.blend
+
+# Optional: track only .blend files with LFS
+# All .blend files should be handled by LFS
+*.blend filter=lfs diff=lfs merge=lfs -text
